@@ -22,3 +22,7 @@ jobs:
 
       - name: Run tests
         run: mvn test --no-transfer-progress
+
+      - name: Run MainClass
+        run: |
+          java -cp target/classes gpt.general.MainClass
