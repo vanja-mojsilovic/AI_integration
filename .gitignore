@@ -1,0 +1,8 @@
+# Ignore environment config
+.env
+
+# Ignore build output
+**/target/
+
+# Ignore IntelliJ project files (anywhere in the repo)
+.idea/
