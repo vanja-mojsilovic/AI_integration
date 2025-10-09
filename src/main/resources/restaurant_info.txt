@@ -3,9 +3,79 @@ Monday–Friday: 08:00–22:00
 Saturday: 09:00–23:00
 Sunday: Closed
 
-My Test Restaurant has on its website page this html DOM element:
-<li class="nav-tab nav-parties-link">
-<a target="_self" id="nav_tab_6_link" class="link-parties-sh" href="https://spot-sample-160745-website-v1.spotapps.co/abttt#">
-Parties
-</a>
-</li>
+My Test Restaurant has on its website page this html DOM elements between stars:
+***
+<ul class="nav navbar-nav" style="opacity: 1;">
+                <li class="logo-holder">
+                                  <div class="header-logo logo-top">
+                    <img class="img-responsive logo-top logo-image" src="https://static.spotapps.co/website_images/ab_websites/544270_website_v1/logo.png" aria-label="Homepage" alt="Automation T Spot logo top - Homepage" tabindex="0" role="link">
+                  </div>
+                                                  <div class="header-logo logo-scroll">
+                    <img class="img-responsive logo-scroll logo-image" src="https://static.spotapps.co/website_images/ab_websites/544270_website_v1/logo.png" aria-label="Homepage" alt="Automation T Spot logo scroll - Homepage" tabindex="0" role="link">
+                  </div>
+                                </li>
+                                <li class="nav-tab drop-down-link menu-drop-down">
+                    <a target="" id="nav_tab_1_link1" class="drop-down" href="#" role="button" aria-expanded="false">
+
+                      Menu
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                      <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                          </a>
+                    <ul class="sub-menu" style="width: 100px;">
+                                                                    <li>
+                          <a href="/food-menu" id="nav_tab_1_link1_option1" class="sub-menu-link" target="_self">
+                          Food                          </a>
+                        </li>
+                                                                                          <li>
+                          <a href="/drink-menu" id="nav_tab_1_link1_option2" class="sub-menu-link" target="_self">
+                          Drinks                          </a>
+                        </li>
+                                                                </ul>
+                </li>
+                                <li class="nav-tab">
+                    <a target="_self" id="nav_tab_2_link" class="" href="/specials">
+
+                      Specials
+                                          </a>
+                </li>
+                                <li class="nav-tab">
+                    <a target="_self" id="nav_tab_3_link" class="" href="/events">
+                      Events
+                                          </a>
+                </li>
+                                <li class="nav-tab nav-reservations-link">
+                    <a target="_self" id="nav_tab_5_link" class="link-reservations-sh" href="https://olddomain.com/#">
+                      Reserve
+                                          </a>
+                </li>
+                                <li class="nav-tab nav-parties-link">
+                    <a target="_self" id="nav_tab_6_link" class="link-parties-sh" href="https://spot-sample-160745-website-v1.spotapps.co/abttt#">
+                      Parties
+                                          </a>
+                </li>
+                                <li class="nav-tab nav-catering-link">
+                    <a target="_self" id="nav_tab_7_link" class="link-catering-sh" href="/catering#">
+                      Catering
+                                          </a>
+                </li>
+                                <li class="nav-tab nav-jobs-link">
+                    <a target="_self" id="nav_tab_8_link" class="link-jobs-sh" href="https://tmt.spotapps.co/job-listings?spot_id=321387&amp;callback_url=http://spot-sample-qa-automation-testing.spotapps.co/#">
+                      Jobs
+                                          </a>
+                </li>
+                                <li class="nav-tab">
+                    <a target="_self" id="nav_tab_9_link" class="" href="/about">
+
+                      About
+                                          </a>
+                </li>
+                                <li class="nav-tab">
+                    <a target="_self" id="nav_tab_10_link" class="" href="/custom-cakes">
+                      Custom Cakes
+                                          </a>
+                </li>
+                                <li class="nav-tab helper-tab" style="margin-right: 25px;">
+                  <a target="_self" id="hidden_tab_r" href="#"><span class="visuallyhidden">Go to top</span></a>
+                </li>
+              </ul>
+***
