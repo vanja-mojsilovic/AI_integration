@@ -9,14 +9,19 @@ import java.nio.file.Paths;
 
 public class MainClass {
     private final String apiKey;
-
     public MainClass() {
-        Dotenv dotenv = Dotenv.load();
-        this.apiKey = dotenv.get("SECRET_SH_OPEN_AI_KEY");
+        Dotenv dotenv = Dotenv.configure()
+                .ignoreIfMissing()
+                .load();
+        String keyFromEnv = dotenv.get("SECRET_SH_OPEN_AI_KEY");
+        this.apiKey = (keyFromEnv != null && !keyFromEnv.isEmpty())
+                ? keyFromEnv
+                : System.getenv("SECRET_SH_OPEN_AI_KEY");
         if (apiKey == null || apiKey.isEmpty()) {
-            throw new IllegalStateException("API key not found in .env file.");
+            throw new IllegalStateException("API key not found in .env file or environment variables.");
         }
     }
+
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

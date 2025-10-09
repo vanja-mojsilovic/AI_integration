@@ -1,4 +1,4 @@
-name: Java CI
+name: Action
 
 on:
   workflow_dispatch:
@@ -6,6 +6,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      SECRET_SH_OPEN_AI_KEY: ${{ secrets.SECRET_SH_OPEN_AI_KEY
 
     steps:
       - name: Checkout repository
