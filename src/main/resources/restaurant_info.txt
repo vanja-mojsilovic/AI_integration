@@ -5,77 +5,26 @@ Sunday: Closed
 
 My Test Restaurant has on its website page this html DOM elements between stars:
 ***
-<ul class="nav navbar-nav" style="opacity: 1;">
-                <li class="logo-holder">
-                                  <div class="header-logo logo-top">
-                    <img class="img-responsive logo-top logo-image" src="https://static.spotapps.co/website_images/ab_websites/544270_website_v1/logo.png" aria-label="Homepage" alt="Automation T Spot logo top - Homepage" tabindex="0" role="link">
-                  </div>
-                                                  <div class="header-logo logo-scroll">
-                    <img class="img-responsive logo-scroll logo-image" src="https://static.spotapps.co/website_images/ab_websites/544270_website_v1/logo.png" aria-label="Homepage" alt="Automation T Spot logo scroll - Homepage" tabindex="0" role="link">
-                  </div>
-                                </li>
-                                <li class="nav-tab drop-down-link menu-drop-down">
-                    <a target="" id="nav_tab_1_link1" class="drop-down" href="#" role="button" aria-expanded="false">
+<ul class="nav navbar-nav" style="opacity: 1;"><li class="logo-holder"><div class="header-logo logo-top"><img alt="Firehouse Axes logo top - Homepage" aria-label="Homepage" class="img-responsive logo-top logo-image" role="link" src="https://static.spotapps.co/website_images/ab_websites/329463_website_v1/logo.png" tabindex="0"></div><div class="header-logo logo-scroll"><img alt="Firehouse Axes logo scroll - Homepage" aria-label="Homepage" class="img-responsive logo-scroll logo-image" role="link" src="https://static.spotapps.co/website_images/ab_websites/329463_website_v1/logo.png" tabindex="0"></div></li><li class="nav-tab nav-menu-page"><a class="" href="/food-menu" id="nav_tab_1_link" target="_self">
 
                       Menu
-                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                      <i class="fa fa-angle-up" aria-hidden="true"></i>
-                                          </a>
-                    <ul class="sub-menu" style="width: 100px;">
-                                                                    <li>
-                          <a href="/food-menu" id="nav_tab_1_link1_option1" class="sub-menu-link" target="_self">
-                          Food                          </a>
-                        </li>
-                                                                                          <li>
-                          <a href="/drink-menu" id="nav_tab_1_link1_option2" class="sub-menu-link" target="_self">
-                          Drinks                          </a>
-                        </li>
-                                                                </ul>
-                </li>
-                                <li class="nav-tab">
-                    <a target="_self" id="nav_tab_2_link" class="" href="/specials">
+                                          </a></li><li class="nav-tab"><a class="" href="/drink-menu" id="nav_tab_2_link" target="_self">
+
+                      Drinks
+                                          </a></li><li class="nav-tab"><a class="" href="/specials" id="nav_tab_3_link" target="_self">
 
                       Specials
-                                          </a>
-                </li>
-                                <li class="nav-tab">
-                    <a target="_self" id="nav_tab_3_link" class="" href="/events">
+                                          </a></li><li class="nav-tab"><a class="" href="/events" id="nav_tab_4_link" target="_self">
+
                       Events
-                                          </a>
-                </li>
-                                <li class="nav-tab nav-reservations-link">
-                    <a target="_self" id="nav_tab_5_link" class="link-reservations-sh" href="https://olddomain.com/#">
-                      Reserve
-                                          </a>
-                </li>
-                                <li class="nav-tab nav-parties-link">
-                    <a target="_self" id="nav_tab_6_link" class="link-parties-sh" href="https://spot-sample-160745-website-v1.spotapps.co/abttt#">
+                                          </a></li><li class="nav-tab nav-parties-link"><a class="link-parties-sh" href="/party#" id="nav_tab_7_link" target="_self">
+
                       Parties
-                                          </a>
-                </li>
-                                <li class="nav-tab nav-catering-link">
-                    <a target="_self" id="nav_tab_7_link" class="link-catering-sh" href="/catering#">
-                      Catering
-                                          </a>
-                </li>
-                                <li class="nav-tab nav-jobs-link">
-                    <a target="_self" id="nav_tab_8_link" class="link-jobs-sh" href="https://tmt.spotapps.co/job-listings?spot_id=321387&amp;callback_url=http://spot-sample-qa-automation-testing.spotapps.co/#">
+                                          </a></li><li class="nav-tab nav-jobs-link"><a class="link-jobs-sh" href="https://tmt.spotapps.co/job-listings?spot_id=329463&amp;callback_url=http://spot-sample-329463-website-v1.spotapps.co/#" id="nav_tab_9_link" target="_self">
+
                       Jobs
-                                          </a>
-                </li>
-                                <li class="nav-tab">
-                    <a target="_self" id="nav_tab_9_link" class="" href="/about">
+                                          </a></li><li class="nav-tab"><a class="" href="/about" id="nav_tab_10_link" target="_self">
 
                       About
-                                          </a>
-                </li>
-                                <li class="nav-tab">
-                    <a target="_self" id="nav_tab_10_link" class="" href="/custom-cakes">
-                      Custom Cakes
-                                          </a>
-                </li>
-                                <li class="nav-tab helper-tab" style="margin-right: 25px;">
-                  <a target="_self" id="hidden_tab_r" href="#"><span class="visuallyhidden">Go to top</span></a>
-                </li>
-              </ul>
+                                          </a></li><li class="nav-tab helper-tab" style="margin-right: 79.1576px;"><a href="#" id="hidden_tab_r" target="_self"><span class="visuallyhidden">Go to top</span></a></li></ul>
 ***
