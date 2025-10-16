@@ -1,0 +1,117 @@
+ript src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--><style>
+
+#accessibility-footer {
+  padding: 20px 5px;
+  background-color: #353638;
+  color: #fff;
+  text-align: center;
+}
+#accessibility-footer p {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: initial;
+  color: #fff;
+}
+#accessibility-footer .accessibility-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  #accessibility-footer .accessibility-link {
+    display: block;
+  }
+
+  /* additionl css in case that there is a CTA mobile bar (id="bottom-navbar") on the website */
+  #accessibility-footer {
+    position: relative;
+    top: -60px;
+    padding-bottom: 70px;
+  }
+}
+
+</style><script src="https://static.spotapps.co/websites/lib/lazysizes/lazysizes.min.js" async=""></script><script>
+function ga_check(){
+  return true;
+}
+</script><script>
+function universal_ga(action, type, category, ev_action, label){
+  if(typeof ga === 'function')
+  {
+    if(!(action && label))
+      ga(action, type, category)
+    else
+      ga(action, type, category, ev_action, label)
+  }
+
+  if(typeof gtag === 'function')
+  {
+    if(!(action && label))
+    {
+      hash = category
+      ev_label = hash["eventLabel"]
+      var splits = ev_label.match(/.{1,100}/g) ?? [];
+      delete(hash["eventLabel"])
+
+      if(splits.length <= 1)
+        hash["eventLabel"] = ev_label
+      else
+      {
+        for (let i = 0; i < splits.length; i++) {
+          var key = "eventLabel_"+i
+          hash[key] = splits[i]
+        }
+      }
+      console.log(hash)
+      gtag("event", hash["eventCategory"], hash);
+    }
+    else
+    {
+      var hash = {
+        eventCategory: category,
+        eventAction: ev_action
+      }
+
+      var splits = label.match(/.{1,100}/g) ?? [];
+      if(splits.length <= 1)
+        hash["eventLabel"] = label
+      else
+      {
+        for (let i = 0; i < splits.length; i++) {
+          var key = "eventLabel_"+i
+          hash[key] = splits[i]
+        }
+      }
+      gtag("event", hash["eventCategory"], hash);
+    }
+  }
+}
+</script><script>    function getPromotionUrlParams(){
+      var params_str = sessionStorage.getItem('shUrlParams');
+      if (params_str != null){
+        return JSON.parse(params_str);
+      }else{
+        return {};
+      }
+    }
+
+    function getPromotionSourceDetails(){
+        var params_str = localStorage.getItem('promotionSourceDetails');
+        if (params_str != null){
+          return JSON.parse(params_str);
+        }else{
+          return {};
+        }
+    }
+
+    function getLastEmailVisitInDays(){
+      var promotionSourceDetails = getPromotionSourceDetails();
+      if (!promotionSourceDetails['last_visit_email'] ){
+        return null;
+      }
+      return Math.flo

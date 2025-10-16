@@ -1,30 +1,595 @@
-My Test Restaurnat Working Hours:
-Monday–Friday: 08:00–22:00
-Saturday: 09:00–23:00
-Sunday: Closed
 
-My Test Restaurant has on its website page this html DOM elements between stars:
-***
-<ul class="nav navbar-nav" style="opacity: 1;"><li class="logo-holder"><div class="header-logo logo-top"><img alt="Firehouse Axes logo top - Homepage" aria-label="Homepage" class="img-responsive logo-top logo-image" role="link" src="https://static.spotapps.co/website_images/ab_websites/329463_website_v1/logo.png" tabindex="0"></div><div class="header-logo logo-scroll"><img alt="Firehouse Axes logo scroll - Homepage" aria-label="Homepage" class="img-responsive logo-scroll logo-image" role="link" src="https://static.spotapps.co/website_images/ab_websites/329463_website_v1/logo.png" tabindex="0"></div></li><li class="nav-tab nav-menu-page"><a class="" href="/food-menu" id="nav_tab_1_link" target="_self">
+<!DOCTYPE html>
 
-                      Menu
-                                          </a></li><li class="nav-tab"><a class="" href="/drink-menu" id="nav_tab_2_link" target="_self">
+<html lang="en"><head><!-- Google tag (gtag.js) --><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-VG24VK2VKT"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('set', 'linker', {'domains': ['tmt.spotapps.co','spothopperapp.com']});
+    gtag('js', new Date());
+    
+    gtag('config', 'G-VG24VK2VKT');
+  </script><!-- wcache 2025-10-16 10:54:00.705067Z --><meta content="noindex, nofollow" name="robots"/><meta charset="utf-8"/><meta content="IE=edge" http-equiv="X-UA-Compatible"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="    🌅🌊✨Discover a slice of Greece right here in Miami Beach — poolside and just steps from the ocean. 🇬🇷 Indulge in fresh seafood, colorful mezze, and classic Greek favorites served with warm, authentic hospitality. Every dish bursts with Mediterranean sunshine and every moment is filled with joy, laughter, and celebration.  Every dish is served with our authentic Greek energy — fun, vibrant, and unforgettable. Opa! ✨🌴🏖️ " name="description"/><meta content="" name="author"/><meta content="Santorini by Georgios - Miami Beach, FL" property="og:title"/><meta content="website" property="og:type"/><meta content="http://spot-sample-98462-website-v2.spotapps.co/" property="og:url"/><meta content="    🌅🌊✨Discover a slice of Greece right here in Miami Beach — poolside and just steps from the ocean. 🇬🇷 Indulge in fresh seafood, colorful mezze, and classic Greek favor..." property="og:description"/><meta content="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/social_share.jpg" property="og:image"/><meta content="Santorini by Georgios image" property="og:image:alt"/><meta content="image/png" property="og:image:type"/><meta content="177113579331141" property="fb:app_id"/><meta content="summary_large_image" name="twitter:card"/><meta content="Santorini by Georgios - Miami Beach, FL" name="twitter:title"/><meta content="    🌅🌊✨Discover a slice of Greece right here in Miami Beach — poolside and just steps from the ocean. 🇬🇷 Indulge in fresh seafood, colorful mezze, and classic Greek favor..." name="twitter:description"/><meta content="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/social_share.jpg" name="twitter:image"/><title>Santorini by Georgios - Miami Beach, FL</title><script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script><link href="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/><link href="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/favicons/favicon.svg" rel="icon" type="image/svg+xml"/><link href="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/favicons/favicon.ico" rel="shortcut icon"/><link href="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><meta content="Santorini by Georgios" name="apple-mobile-web-app-title"/><link href="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/favicons/site.webmanifest" rel="manifest"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/gallery/gallery.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/fancybox/source/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/fancybox/source/helpers/jquery.fancybox-thumbs.css" rel="stylesheet" type="text/css"/><link href="//static.spotapps.co/web-lib/leaflet/leaflet-gesture-handling@1.2.2/dist/leaflet-gesture-handling.min.css" rel="stylesheet" type="text/css"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/uikit/css/uikit.docs.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/uikit/css/slidenav.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/hover_css/css/hover-min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/owlcarousel/owl.theme.default.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web-lib/leaflet/leaflet@1.3.1/dist/leaflet.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/css/style.css?version2" id="mainCSS" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/css/bottom_navigation_v1.css?v1760446855" rel="stylesheet"/><link href="css/custom.css?v1760446855&domain=spot-sample-98462-website-v2.spotapps.co" rel="stylesheet"/><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/icons_font/css/social_icons.css" rel="stylesheet"/><!--[if IE 7]><link rel="stylesheet" href="lib/icons_font/css/social_icons-ie7.css"><![endif]--><link href="https://static.spotapps.co/web/spot-sample-98462-website-v2--spotapps--co/lib/twitter_x_font_icon/css/twitter_x.css" rel="stylesheet"/><!--[if IE 7]><link rel="stylesheet" href="lib/twitter_x_font_icon/css/twitter_x-ie7.css"><![endif]--><!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--><style>
 
-                      Drinks
-                                          </a></li><li class="nav-tab"><a class="" href="/specials" id="nav_tab_3_link" target="_self">
+#accessibility-footer {
+  padding: 20px 5px;
+  background-color: #353638;
+  color: #fff;
+  text-align: center;
+}
+#accessibility-footer p {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: initial;
+  color: #fff;
+}
+#accessibility-footer .accessibility-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
+}
 
-                      Specials
-                                          </a></li><li class="nav-tab"><a class="" href="/events" id="nav_tab_4_link" target="_self">
+@media (max-width: 767px) {
+  #accessibility-footer .accessibility-link {
+    display: block;
+  }
 
-                      Events
-                                          </a></li><li class="nav-tab nav-parties-link"><a class="link-parties-sh" href="/party#" id="nav_tab_7_link" target="_self">
+  /* additionl css in case that there is a CTA mobile bar (id="bottom-navbar") on the website */
+  #accessibility-footer {
+    position: relative;
+    top: -60px;
+    padding-bottom: 70px;
+  }
+}
 
-                      Parties
-                                          </a></li><li class="nav-tab nav-jobs-link"><a class="link-jobs-sh" href="https://tmt.spotapps.co/job-listings?spot_id=329463&amp;callback_url=http://spot-sample-329463-website-v1.spotapps.co/#" id="nav_tab_9_link" target="_self">
+</style><script src="https://static.spotapps.co/websites/lib/lazysizes/lazysizes.min.js" async=""></script><script>
+function ga_check(){
+  return true;
+}
+</script><script>
+function universal_ga(action, type, category, ev_action, label){
+  if(typeof ga === 'function')
+  {
+    if(!(action && label))
+      ga(action, type, category)
+    else
+      ga(action, type, category, ev_action, label)
+  }
 
-                      Jobs
-                                          </a></li><li class="nav-tab"><a class="" href="/about" id="nav_tab_10_link" target="_self">
+  if(typeof gtag === 'function')
+  {
+    if(!(action && label))
+    {
+      hash = category
+      ev_label = hash["eventLabel"]
+      var splits = ev_label.match(/.{1,100}/g) ?? [];
+      delete(hash["eventLabel"])
 
-                      About
-                                          </a></li><li class="nav-tab helper-tab" style="margin-right: 79.1576px;"><a href="#" id="hidden_tab_r" target="_self"><span class="visuallyhidden">Go to top</span></a></li></ul>
-***
+      if(splits.length <= 1)
+        hash["eventLabel"] = ev_label
+      else
+      {
+        for (let i = 0; i < splits.length; i++) {
+          var key = "eventLabel_"+i
+          hash[key] = splits[i]
+        }
+      }
+      console.log(hash)
+      gtag("event", hash["eventCategory"], hash);
+    }
+    else
+    {
+      var hash = {
+        eventCategory: category,
+        eventAction: ev_action
+      }
+
+      var splits = label.match(/.{1,100}/g) ?? [];
+      if(splits.length <= 1)
+        hash["eventLabel"] = label
+      else
+      {
+        for (let i = 0; i < splits.length; i++) {
+          var key = "eventLabel_"+i
+          hash[key] = splits[i]
+        }
+      }
+      gtag("event", hash["eventCategory"], hash);
+    }
+  }
+}
+</script><script>    function getPromotionUrlParams(){
+      var params_str = sessionStorage.getItem('shUrlParams');
+      if (params_str != null){
+        return JSON.parse(params_str);
+      }else{
+        return {};
+      }
+    }
+
+    function getPromotionSourceDetails(){
+        var params_str = localStorage.getItem('promotionSourceDetails');
+        if (params_str != null){
+          return JSON.parse(params_str);
+        }else{
+          return {};
+        }
+    }
+
+    function getLastEmailVisitInDays(){
+      var promotionSourceDetails = getPromotionSourceDetails();
+      if (!promotionSourceDetails['last_visit_email'] ){
+        return null;
+      }
+      return Math.floor((new Date() - new Date(promotionSourceDetails['last_visit_email'])) / (1000 * 60 * 60 * 24));
+    }
+
+    function getLastSocialVisitInDays(){
+      var promotionSourceDetails = getPromotionSourceDetails();
+      if (!promotionSourceDetails['last_visit_social'] ){
+        return null;
+      }
+      return Math.floor((new Date() - new Date(promotionSourceDetails['last_visit_social'])) / (1000 * 60 * 60 * 24));
+    }
+
+    var shUrlParams = getPromotionUrlParams();
+    var promotionSourceDetails = getPromotionSourceDetails();
+
+    new URL(document.location).searchParams.forEach(function(value, paramName){
+
+     shUrlParams[paramName] = value;
+
+     if (paramName == 'source' && value =='social' ){
+       promotionSourceDetails['last_visit_social'] = new Date();
+       localStorage.setItem('promotionSourceDetails', JSON.stringify(promotionSourceDetails));
+     }
+
+     if (paramName == 'source' && value =='email' ){
+       promotionSourceDetails['last_visit_email'] = new Date();
+       localStorage.setItem('promotionSourceDetails', JSON.stringify(promotionSourceDetails));
+     }
+
+    });
+
+    sessionStorage.setItem('shUrlParams', JSON.stringify(shUrlParams))
+</script></head><body class="home-page" data-spot-id="98462"><style>
+
+
+.navbar.nav-v6 .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar.nav-v6.nav-scroll .container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar.nav-v6 .header-logo img {
+  max-width: 100%;
+}
+.navbar.nav-v6.nav-scroll .header-logo img {
+  max-width: 80%;
+}
+
+@media (max-width: 767px) {
+  /* DO NOT change mobile nav height on page scroll */
+  .navbar.nav-v6 .navbar-header,
+  .navbar.nav-v6.nav-scroll .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar.nav-v6 .socialnav,
+  .navbar.nav-v6.nav-scroll .socialnav {
+    margin-top: 10px;
+  }
+  .navbar.nav-v6 .container,
+  .navbar.nav-v6.nav-scroll .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar.nav-v6 .header-logo,
+  .navbar.nav-v6.nav-scroll .header-logo {
+    height: 70px;
+  }
+  .navbar.nav-v6 .header-logo img {
+    max-height: 100%;
+  }
+  .navbar.nav-v6.nav-scroll .header-logo img {
+    max-width: 100%;
+  }
+  /* HOME page CHANGE mobile nav height on page scroll */
+  /* Remove body.home-page from below code if there should be mobile nav height change on ALL pages */
+  body.home-page .navbar.nav-v6 .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .navbar-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  body.home-page .navbar.nav-v6 .socialnav {
+    margin-top: 10px;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .socialnav {
+    margin-top: 0px;
+  }
+  body.home-page .navbar.nav-v6 .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  body.home-page .navbar.nav-v6 .header-logo {
+    height: 70px;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .header-logo {
+    height: 50px;
+  }
+  body.home-page .navbar.nav-v6 .header-logo img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .header-logo img {
+    max-width: 80%;
+  }
+}
+
+
+.navbar-regular .navbar-collapse.collapse.in {
+  background-color: transparent;
+  width: 100%;
+}
+.navbar.nav-v6{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.navbar.nav-v6.nav-scroll{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.drink-menu .navbar.nav-v6{
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.drink-menu .navbar.nav-v6.nav-scroll{
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.navbar-regular.nav-v6 .navbar-nav>li>a,
+.navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+.navbar-regular.nav-v6 .navbar-nav>.active>a,
+.navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+.navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+  border: none;
+  border-right: 1px solid #1D2A40;
+  background-color: transparent;
+  color: #1D2A40;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-regular.nav-v6 .navbar-nav>li>a {
+  color: #1D2A40;
+}
+.drink-menu .navbar.nav-v6 .navbar-nav>li>a {
+  color: #1D2A40;
+  border-right: 1px solid #1D2A40;
+}
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a,
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+  color: #1D2A40;
+}
+li.drop-down-link .sub-menu {
+  background-color: #fff;
+  color: #1D2A40;
+  }
+.nav-scroll li.drop-down-link .sub-menu {
+  background-color: #fff;
+  color: #1D2A40;
+}
+.drink-menu li.drop-down-link .sub-menu {
+  background-color: #fff;
+  color: #1D2A40;
+  }
+.drink-menu .nav-scroll li.drop-down-link .sub-menu {
+  background-color: #fff;
+  color: #1D2A40;
+}
+li.drop-down-link .sub-menu a,
+li.drop-down-link div.drop-down {
+  color: #1D2A40;
+}
+.nav-scroll li.drop-down-link .sub-menu a,
+.nav-scroll li.drop-down-link li.drop-down-link div.drop-down {
+  color: #1D2A40;
+}
+.drink-menu li.drop-down-link .sub-menu a,
+.drink-menu li.drop-down-link div.drop-down {
+  color: #1D2A40;
+}
+.drink-menu .nav-scroll li.drop-down-link .sub-menu a,
+.drink-menu .nav-scroll li.drop-down-link div.drop-down {
+  color: #1D2A40;
+}
+
+li.drop-down-link .sub-menu a:hover,
+li.drop-down-link .sub-menu a:focus {
+  color: #1D2A40;
+}
+.drink-menu li.drop-down-link .sub-menu a:hover,
+.drink-menu li.drop-down-link .sub-menu a:focus {
+  color: #1D2A40;
+}
+
+.navbar-regular.nav-v6 .navbar-toggle .icon-bar {
+  background-color: #1D2A40;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.drink-menu .navbar-regular.nav-v6 .navbar-toggle .icon-bar {
+  background-color: #1D2A40;
+}
+.navbar-regular.nav-v6 [aria-expanded="true"].navbar-toggle .icon-bar {
+  background-color: #1D2A40;
+}
+.drink-menu .navbar-regular.nav-v6 [aria-expanded="true"].navbar-toggle .icon-bar{
+  background-color: #1D2A40;
+}
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+  border: none;
+  border-right: 1px solid #1D2A40;
+  color: #1D2A40;
+}
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a {
+  color: #1D2A40;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .navbar-nav>li>a {
+  color: #1D2A40;
+  border-right: 1px solid #1D2A40;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+  color: #1D2A40;
+}
+
+.nav-scroll li.drop-down-link .sub-menu a:hover,
+.nav-scroll li.drop-down-link .sub-menu a:focus {
+  color: #1D2A40;
+}
+.drink-menu .nav-scroll li.drop-down-link .sub-menu a:hover,
+.drink-menu .nav-scroll li.drop-down-link .sub-menu a:focus {
+  color: #1D2A40;
+}
+
+.navbar-regular.nav-v6.nav-scroll .navbar-toggle .icon-bar {
+  background-color: #1D2A40;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-toggle .icon-bar {
+  background-color: #1D2A40;
+}
+.navbar-regular.nav-v6.nav-scroll [aria-expanded="true"].navbar-toggle .icon-bar {
+  background-color: #1D2A40;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll [aria-expanded="true"].navbar-toggle .icon-bar{
+  background-color: #1D2A40;
+}
+.navbar.nav-v6 .header-logo-text{
+  color: #1D2A40;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar.nav-v6.nav-scroll .header-logo-text{
+  color: #1D2A40;
+}
+.navbar.nav-v6 .social-icon{
+  color: #1D2A40;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar.nav-v6.nav-scroll .social-icon{
+  color: #1D2A40;
+}
+.navbar.nav-v6 .social-square .contact-icon:hover {
+  color: #1D2A40;
+  background-color: #1D2A40;
+}
+.navbar.nav-v6.nav-scroll .social-square .contact-icon:hover {
+  color: #1D2A40;
+  background-color: #1D2A40;
+}
+
+.drink-menu .navbar.nav-v6 .header-logo-text{
+  color: #1D2A40;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .header-logo-text{
+  color: #1D2A40;
+}
+.drink-menu .navbar.nav-v6 .social-icon{
+  color: #1D2A40;
+}
+.drink-menu  .navbar.nav-v6.nav-scroll .social-icon{
+  color: #1D2A40;
+}
+.drink-menu .navbar.nav-v6 .social-square .contact-icon:hover {
+  color: #1D2A40;
+  background-color: #1D2A40;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .social-square .contact-icon:hover {
+  color: #1D2A40;
+  background-color: #1D2A40;
+}
+.navbar.nav-v6 .container {
+  border-bottom: 1px solid transparent;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar.nav-v6.nav-scroll .container {
+  border-bottom: 1px solid transparent;
+}
+.drink-menu .navbar.nav-v6 .container {
+  border-bottom: 1px solid transparent;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .container {
+  border-bottom: 1px solid transparent;
+}
+@media(min-width: 768px) {
+  .nav-v6 .navbar-collapse {
+    display: flex !important;
+    justify-content: end;
+  }
+  .nav-v6 .navbar-nav,
+  .nav-v6 .socialnav.hidden-xs {
+    float: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .navbar.nav-v6 .container,
+  .navbar.nav-v6.nav-scroll .container,
+  .drink-menu .navbar.nav-v6 .container,
+  .drink-menu .navbar.nav-v6.nav-scroll .container {
+    border-bottom: none;
+  }
+  .navbar.nav-v6 .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  .navbar.nav-v6.nav-scroll .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  .drink-menu .navbar.nav-v6 .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  .drink-menu .navbar.nav-v6.nav-scroll .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  li.drop-down-link .sub-menu,
+  .drink-menu li.drop-down-link .sub-menu {
+    width: 100% !important;
+    background-color: transparent;
+  }
+  .nav-scroll li.drop-down-link .sub-menu,
+  .drink-menu .nav-scroll li.drop-down-link .sub-menu {
+    background-color: transparent;
+  }
+    .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+  .navbar-regular.nav-v6 .navbar-nav>.active>a,
+  .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+  .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+
+  .navbar-regular.nav-v6 li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+  .navbar-regular.nav-v6.nav-scroll li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+
+  .drink-menu .navbar-regular.nav-v6 li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+  .drink-menu .navbar-regular.nav-v6.nav-scroll li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+
+}
+</style><!-- nav --><nav class="navbar nav-v4 nav-v6 nav-v6-drop navbar-regular navbar-fixed-top" id="navbar" role="navigation"><div id="skip"><a class="visuallyhidden skip-content" href="#content">Skip to main content</a></div><div class="container"><a class="header-logo logo-top" href="/#"><img alt="Santorini by Georgios logo top - Homepage" aria-label="Homepage" class="img-responsive logo-top" src="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/logo1.png"/></a><a class="header-logo logo-scroll" href="/"><img alt="Santorini by Georgios logo scroll - Homepage" aria-label="Homepage" class="img-responsive logo-scroll" src="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/logo1.png"/></a><ul class="socialnav visible-xs"><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.facebook.com/177113579331141" target="_blank"><i class="social-icon fa fa-facebook"></i><span>Facebook page</span></a></li><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.instagram.com/santorinibygeorgios" target="_blank"><i class="social-icon fa fa-instagram"></i><span>Instagram page</span></a></li><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.google.com/search?sca_esv=d14af1df391cf56f&q=santorini+by+georgios+miami+beach&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EyYGhBYlsX4RDwHdBg_wk4W5WERGCVglnmyyAVRJba_o5lOBAdjdcU5gu8RoK4hhwHD-Wq5rwxA8ldo2FTLZTxn2HkylPEE7jQ2VQQKOjU2z3TNdPQ%3D%3D&sa=X&sqi=2&ved=2ahUKEwj2m7uGrKOQAxUPAhAIHWmaEh0QrrQLegQIRRAA&biw=1707&bih=811&dpr=1.13#lrd=0x88d9b4f1efb803d5:0x3eec9607c5dff653,1,,,," target="_blank"><i aria-hidden="true" class="social-icon fa fa-google"></i><span>Google page</span></a></li></ul><div class="navbar-header"><button class="navbar-toggle" data-target="#navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li class=" nav-menu-page"><a class="" href="/food-menu" id="nav_tab_1_link" target="_self">
+
+                    Menu
+                    
+                </a></li><li class=" "><a class="" href="/drink-menu" id="nav_tab_2_link" target="_self">
+
+                    Drinks
+                    
+                </a></li><li class=" "><a class="" href="/specials" id="nav_tab_3_link" target="_self">
+
+                    Specials
+                    
+                </a></li><li class=" "><a class="" href="/events" id="nav_tab_4_link" target="_self">
+
+                    Events
+                    
+                </a></li><li class=" nav-reservations-link"><a class="link-reservations-sh" href="https://www.peakreservations.com/miami-beach/santorini-by-georgios#" id="nav_tab_6_link" target="_self">
+
+                    Reserve
+                    
+                </a></li><li class=" nav-parties-link"><a class="link-parties-sh" href="/party#" id="nav_tab_7_link" target="_self">
+
+                    Parties
+                    
+                </a></li><li class=" nav-catering-link"><a class="link-catering-sh" href="https://tmt.spotapps.co/catering?spot_id=98462&callback_url=http://spot-sample-98462-website-v2.spotapps.co/#" id="nav_tab_8_link" target="_self">
+
+                    Catering
+                    
+                </a></li><li class=" nav-jobs-link"><a class="link-jobs-sh" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d4d64eb4-d344-423a-868e-ae5d37380d2f&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter#" id="nav_tab_9_link" target="_self">
+
+                    Jobs
+                    
+                </a></li><li class=" "><a class="" href="/about" id="nav_tab_10_link" target="_self">
+
+                    About
+                    
+                </a></li><li class=" "><a class="" href="/press" id="nav_tab_11_link" target="_self">
+
+                    Press
+                    
+                </a></li></ul><ul class="socialnav hidden-xs"><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.facebook.com/177113579331141" target="_blank"><i class="social-icon fa fa-facebook"></i><span>Facebook page</span></a></li><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.instagram.com/santorinibygeorgios" target="_blank"><i class="social-icon fa fa-instagram"></i><span>Instagram page</span></a></li><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.google.com/search?sca_esv=d14af1df391cf56f&q=santorini+by+georgios+miami+beach&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EyYGhBYlsX4RDwHdBg_wk4W5WERGCVglnmyyAVRJba_o5lOBAdjdcU5gu8RoK4hhwHD-Wq5rwxA8ldo2FTLZTxn2HkylPEE7jQ2VQQKOjU2z3TNdPQ%3D%3D&sa=X&sqi=2&ved=2ahUKEwj2m7uGrKOQAxUPAhAIHWmaEh0QrrQLegQIRRAA&biw=1707&bih=811&dpr=1.13#lrd=0x88d9b4f1efb803d5:0x3eec9607c5dff653,1,,,," target="_blank"><i aria-hidden="true" class="social-icon fa fa-google"></i><span>Google page</span></a></li></ul></div></div></nav><header class="header cover-type-video" style="

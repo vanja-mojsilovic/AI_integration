@@ -1,0 +1,41 @@
+YCZHKDZ-EyYGhBYlsX4RDwHdBg_wk4W5WERGCVglnmyyAVRJba_o5lOBAdjdcU5gu8RoK4hhwHD-Wq5rwxA8ldo2FTLZTxn2HkylPEE7jQ2VQQKOjU2z3TNdPQ%3D%3D&sa=X&sqi=2&ved=2ahUKEwj2m7uGrKOQAxUPAhAIHWmaEh0QrrQLegQIRRAA&biw=1707&bih=811&dpr=1.13#lrd=0x88d9b4f1efb803d5:0x3eec9607c5dff653,1,,,," target="_blank"><i aria-hidden="true" class="social-icon fa fa-google"></i><span>Google page</span></a></li></ul><div class="navbar-header"><button class="navbar-toggle" data-target="#navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li class=" nav-menu-page"><a class="" href="/food-menu" id="nav_tab_1_link" target="_self">
+
+                    Menu
+                    
+                </a></li><li class=" "><a class="" href="/drink-menu" id="nav_tab_2_link" target="_self">
+
+                    Drinks
+                    
+                </a></li><li class=" "><a class="" href="/specials" id="nav_tab_3_link" target="_self">
+
+                    Specials
+                    
+                </a></li><li class=" "><a class="" href="/events" id="nav_tab_4_link" target="_self">
+
+                    Events
+                    
+                </a></li><li class=" nav-reservations-link"><a class="link-reservations-sh" href="https://www.peakreservations.com/miami-beach/santorini-by-georgios#" id="nav_tab_6_link" target="_self">
+
+                    Reserve
+                    
+                </a></li><li class=" nav-parties-link"><a class="link-parties-sh" href="/party#" id="nav_tab_7_link" target="_self">
+
+                    Parties
+                    
+                </a></li><li class=" nav-catering-link"><a class="link-catering-sh" href="https://tmt.spotapps.co/catering?spot_id=98462&callback_url=http://spot-sample-98462-website-v2.spotapps.co/#" id="nav_tab_8_link" target="_self">
+
+                    Catering
+                    
+                </a></li><li class=" nav-jobs-link"><a class="link-jobs-sh" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d4d64eb4-d344-423a-868e-ae5d37380d2f&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter#" id="nav_tab_9_link" target="_self">
+
+                    Jobs
+                    
+                </a></li><li class=" "><a class="" href="/about" id="nav_tab_10_link" target="_self">
+
+                    About
+                    
+                </a></li><li class=" "><a class="" href="/press" id="nav_tab_11_link" target="_self">
+
+                    Press
+                    
+                </a></li></ul><ul class="socialnav hidden-xs"><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.facebook.com/177113579331141" target="_blank"><i class="soc

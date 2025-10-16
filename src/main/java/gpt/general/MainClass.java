@@ -26,12 +26,12 @@ public class MainClass {
         try (Scanner scanner = new Scanner(System.in)) {
             String questionFilePath = "src/main/resources/question_file.txt";
             String userQuestion = new String(Files.readAllBytes(Paths.get(questionFilePath)));
-
             String filePath = "src/main/resources/restaurant_info.txt";
-
+            String outputDirectory = "src/main/resources";
             MainClass main = new MainClass();
             MethodsClass methodsClass = new MethodsClass(main.apiKey);
-            methodsClass.run(userQuestion, filePath);
+            methodsClass.splitRestaurantInfoFile(filePath, 3000);
+            methodsClass.runAcumulated(userQuestion, outputDirectory);
         } catch (Exception e) {
             System.err.println("Exception: " + e.getMessage());
             e.printStackTrace();

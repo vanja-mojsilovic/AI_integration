@@ -1,1 +1,6 @@
-Are there a class name attributes in html structure of My Test Restaurant?
+Find all href links which  are related with reservations, catering and parties services.
+So after / should stay some logic word.
+Source code is given by Beautiful soup tool.
+Please return the result in JSON format with fields: 'order_number', 'href' and 'service_type'
+and just JSON in the result, no other comments and lines like ```json and ```.
+I want a valid conventional JSON with [] as outer parentheses.

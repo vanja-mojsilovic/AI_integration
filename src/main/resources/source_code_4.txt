@@ -1,0 +1,100 @@
+or((new Date() - new Date(promotionSourceDetails['last_visit_email'])) / (1000 * 60 * 60 * 24));
+    }
+
+    function getLastSocialVisitInDays(){
+      var promotionSourceDetails = getPromotionSourceDetails();
+      if (!promotionSourceDetails['last_visit_social'] ){
+        return null;
+      }
+      return Math.floor((new Date() - new Date(promotionSourceDetails['last_visit_social'])) / (1000 * 60 * 60 * 24));
+    }
+
+    var shUrlParams = getPromotionUrlParams();
+    var promotionSourceDetails = getPromotionSourceDetails();
+
+    new URL(document.location).searchParams.forEach(function(value, paramName){
+
+     shUrlParams[paramName] = value;
+
+     if (paramName == 'source' && value =='social' ){
+       promotionSourceDetails['last_visit_social'] = new Date();
+       localStorage.setItem('promotionSourceDetails', JSON.stringify(promotionSourceDetails));
+     }
+
+     if (paramName == 'source' && value =='email' ){
+       promotionSourceDetails['last_visit_email'] = new Date();
+       localStorage.setItem('promotionSourceDetails', JSON.stringify(promotionSourceDetails));
+     }
+
+    });
+
+    sessionStorage.setItem('shUrlParams', JSON.stringify(shUrlParams))
+</script></head><body class="home-page" data-spot-id="98462"><style>
+
+
+.navbar.nav-v6 .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar.nav-v6.nav-scroll .container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar.nav-v6 .header-logo img {
+  max-width: 100%;
+}
+.navbar.nav-v6.nav-scroll .header-logo img {
+  max-width: 80%;
+}
+
+@media (max-width: 767px) {
+  /* DO NOT change mobile nav height on page scroll */
+  .navbar.nav-v6 .navbar-header,
+  .navbar.nav-v6.nav-scroll .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar.nav-v6 .socialnav,
+  .navbar.nav-v6.nav-scroll .socialnav {
+    margin-top: 10px;
+  }
+  .navbar.nav-v6 .container,
+  .navbar.nav-v6.nav-scroll .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar.nav-v6 .header-logo,
+  .navbar.nav-v6.nav-scroll .header-logo {
+    height: 70px;
+  }
+  .navbar.nav-v6 .header-logo img {
+    max-height: 100%;
+  }
+  .navbar.nav-v6.nav-scroll .header-logo img {
+    max-width: 100%;
+  }
+  /* HOME page CHANGE mobile nav height on page scroll */
+  /* Remove body.home-page from below code if there should be mobile nav height change on ALL pages */
+  body.home-page .navbar.nav-v6 .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .navbar-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  body.home-page .navbar.nav-v6 .socialnav {
+    margin-top: 10px;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .socialnav {
+    margin-top: 0px;
+  }
+  body.home-page .navbar.nav-v6 .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  body.home-page .navbar.nav-v6.nav-scroll .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+ 

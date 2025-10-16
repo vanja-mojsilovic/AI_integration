@@ -1,0 +1,41 @@
+background-color: #1D2A40;
+    color: #1D2A40;
+  }
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+    background-color: #1D2A40;
+    color: #1D2A40;
+  }
+
+  .navbar-regular.nav-v6 li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+  .navbar-regular.nav-v6.nav-scroll li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+
+  .drink-menu .navbar-regular.nav-v6 li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+  .drink-menu .navbar-regular.nav-v6.nav-scroll li.drop-down-link.active .drop-down .fa.fa-angle-up {
+    color: #1D2A40;
+  }
+
+}
+</style><!-- nav --><nav class="navbar nav-v4 nav-v6 nav-v6-drop navbar-regular navbar-fixed-top" id="navbar" role="navigation"><div id="skip"><a class="visuallyhidden skip-content" href="#content">Skip to main content</a></div><div class="container"><a class="header-logo logo-top" href="/#"><img alt="Santorini by Georgios logo top - Homepage" aria-label="Homepage" class="img-responsive logo-top" src="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/logo1.png"/></a><a class="header-logo logo-scroll" href="/"><img alt="Santorini by Georgios logo scroll - Homepage" aria-label="Homepage" class="img-responsive logo-scroll" src="https://static.spotapps.co/website_images/ab_websites/98462_website_v2/logo1.png"/></a><ul class="socialnav visible-xs"><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.facebook.com/177113579331141" target="_blank"><i class="social-icon fa fa-facebook"></i><span>Facebook page</span></a></li><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.instagram.com/santorinibygeorgios" target="_blank"><i class="social-icon fa fa-instagram"></i><span>Instagram page</span></a></li><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.google.com/search?sca_esv=d14af1df391cf56f&q=santorini+by+georgios+miami+beach&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMw
